@@ -8,5 +8,5 @@ def countdown(i):
     else:
         countdown (i- 1)
 
-num = int(input("enter a number to print till 0- "))
+num = int(input("enter a number to print in reverse till 0 - "))
 result = countdown(num)
