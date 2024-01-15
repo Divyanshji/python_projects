@@ -1,8 +1,7 @@
 def reverse_string(names):
-     reversed_str = names[::-1]
+     reversed_str = names[::-1]       # Using string slicing to reverse the string
      return reversed_str
 
-# name = "divyansh"
 name = str(input("enter your name - "))
 
 output = reverse_string(name)
@@ -12,4 +11,3 @@ if(name==output):
 else:
      print("Not a Palindrome")
 
-# print (f"Reversed String:{output}")

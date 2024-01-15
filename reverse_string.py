@@ -1,4 +1,5 @@
 def reverse_string(names):
+       # Using string slicing to reverse the string
      reversed_str = names[::-1]
      return reversed_str
 
